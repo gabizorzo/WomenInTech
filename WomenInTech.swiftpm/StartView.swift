@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Start: View {
+struct StartView: View {
     @State private var didTapStart: Bool = false
     
     var body: some View {
