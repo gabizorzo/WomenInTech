@@ -19,7 +19,7 @@ struct WomenView: View {
     var geometry: GeometryProxy
     
     var body: some View {
-        if year >= 1840 {
+        if year >= 0 {
          WomanViewTop(woman: womenArray.women[0], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.44, y: -geometry.size.height * 0.1)
                 .onTapGesture {
@@ -28,7 +28,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1940 {
+        if year >= 1 {
          WomanViewTop(woman: womenArray.women[1], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.51, y: geometry.size.height * 0.27)
                 .onTapGesture {
@@ -37,7 +37,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1947 {
+        if year >= 2 {
          WomanViewBottom(woman: womenArray.women[2], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.59, y: -geometry.size.height * 0.1)
                 .onTapGesture {
@@ -46,7 +46,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1962 {
+        if year >= 3 {
          WomanViewBottom(woman: womenArray.women[3], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.68, y: geometry.size.height * 0.27)
                 .onTapGesture {
@@ -55,7 +55,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1963 {
+        if year >= 4 {
          WomanViewTop(woman: womenArray.women[4], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.76, y: -geometry.size.height * 0.1)
                 .onTapGesture {
@@ -64,7 +64,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1965 {
+        if year >= 5 {
          WomanViewTop(woman: womenArray.women[5], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.84, y: geometry.size.height * 0.27)
                 .onTapGesture {
@@ -73,7 +73,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1972 {
+        if year >= 6 {
          WomanViewBottom(woman: womenArray.women[6], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.92, y: -geometry.size.height * 0.1)
                 .onTapGesture {
@@ -82,7 +82,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1973 {
+        if year >= 7 {
          WomanViewBottom(woman: womenArray.women[7], width: geometry.size.width)
                 .position(x: geometry.size.width * 1, y: geometry.size.height * 0.27)
                 .onTapGesture {
@@ -91,7 +91,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1984 {
+        if year >= 8 {
          WomanViewTop(woman: womenArray.women[8], width: geometry.size.width)
                 .position(x: geometry.size.width * 1.09, y: -geometry.size.height * 0.1)
                 .onTapGesture {
@@ -100,7 +100,7 @@ struct WomenView: View {
                 }
         }
         
-        if year >= 1986 {
+        if year >= 9 {
          WomanViewTop(woman: womenArray.women[9], width: geometry.size.width)
                 .position(x: geometry.size.width * 1.17, y: geometry.size.height * 0.27)
                 .onTapGesture {

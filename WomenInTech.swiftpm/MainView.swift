@@ -12,7 +12,7 @@ import SwiftUI
 
 struct MainView: View {
     
-    @State private var year: Double = 1840
+    @State private var year: Double = 0
     @State var didSelectWoman: Bool = false
     
     @State var womenArray: WomenArray = WomenArray()
@@ -36,13 +36,9 @@ struct MainView: View {
                         WomenView(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
                     }
                     
-                    Slider(value: $year, in: 1800...2022, step: 1)
+                    Slider(value: $year, in: 0...9, step: 1)
                         .accentColor(Color("AccentColor"))
                         .frame(width: geometry.size.width * 0.5)
-                    
-                    Text("YEAR: \(Int(year))")
-                        .font(.system(size: 18))
-                        .foregroundColor(.white)
                     
                     Spacer()
                        .frame(height: geometry.size.height * 0.1)
@@ -54,7 +50,7 @@ struct MainView: View {
                         .resizable()
                         .frame(width: geometry.size.width * 0.05, height: geometry.size.width * 0.05 * 0.48)
                 }
-                .position(x: geometry.size.width * 0.95, y: geometry.size.height * 0.05)
+                .position(x: geometry.size.width * 0.92, y: geometry.size.height * 0.92)
             }
             .sheet(isPresented: $didSelectWoman) {
                 DetailsView(woman: $selectedWoman, didSelectWoman: $didSelectWoman)

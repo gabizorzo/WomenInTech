@@ -59,7 +59,7 @@ struct YearsMarks: View {
     var geometry: GeometryProxy
     
     var body: some View {
-        if year >= 1840 {
+        if year >= 0 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -74,7 +74,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1940 {
+        if year >= 1 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -89,7 +89,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1947 {
+        if year >= 2 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -104,7 +104,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1962 {
+        if year >= 3 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -119,7 +119,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1963 {
+        if year >= 4 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -134,7 +134,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1965 {
+        if year >= 5 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -149,7 +149,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1972 {
+        if year >= 6 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -164,7 +164,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1973 {
+        if year >= 7 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -180,7 +180,7 @@ struct YearsMarks: View {
         }
         
         
-        if year >= 1984 {
+        if year >= 8 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
@@ -195,7 +195,7 @@ struct YearsMarks: View {
             }
         }
         
-        if year >= 1986 {
+        if year >= 9 {
             VStack(spacing: 10) {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)

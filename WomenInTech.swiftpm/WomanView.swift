@@ -17,6 +17,9 @@ struct WomanViewTop: View {
     var body: some View {
         GeometryReader { geometry in
             VStack (spacing: 0) {
+                Spacer()
+                    .frame(height: 20)
+                
                 Image(woman.imageName)
                     .resizable()
                     .frame(width: width * 0.8 / 7, height: width * 0.8 / 7)
@@ -37,7 +40,7 @@ struct WomanViewBottom: View {
         GeometryReader { geometry in
             VStack (spacing: 0) {
                 Spacer()
-                    .frame(height: 10)
+                    .frame(height: 20)
                 
                 Image(woman.textName)
                     .resizable()
