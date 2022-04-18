@@ -23,7 +23,7 @@ struct StartView: View {
                         .frame(width: geometry.size.width * 0.5, height: geometry.size.width * 0.5 * 0.825)
                     
                     
-                    NavigationLink(destination:  Main()) {
+                    NavigationLink(destination:  MainView()) {
                         Image("StartButton")
                             .resizable()
                             .frame(width: geometry.size.width * 0.1, height: geometry.size.width * 0.1 * 0.4)

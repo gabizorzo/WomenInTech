@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Main: View {
+struct MainView: View {
     
     @State private var year: Double = 1840
     
@@ -26,12 +26,15 @@ struct Main: View {
                     ZStack {
                         TimelineView(year: $year)
                         
-                        WomanView(woman: womenArray.women[0])
-                            .position(x: geometry.size.width - geometry.size.width * 0.90, y: -150)
+                       if year >= 1840 {
+                        WomanView(woman: womenArray.women[0], width: geometry.size.width)
+                               .position(x: geometry.size.width * 0.44, y: -geometry.size.height * 0.1)
+                       }
                     }
                     
                     Slider(value: $year, in: 1800...2022, step: 1)
                         .accentColor(Color("AccentColor"))
+                        .frame(width: geometry.size.width * 0.5)
                     
                     Text("YEAR: \(Int(year))")
                         .font(.system(size: 18))
