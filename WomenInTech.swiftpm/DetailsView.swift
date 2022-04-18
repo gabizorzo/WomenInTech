@@ -18,8 +18,22 @@ struct DetailsView: View {
                     Color("BackgroundColor")
                         .ignoresSafeArea()
                     
-                    Text(woman.changeDescription)
-                        .foregroundColor(.white)
+                    VStack {
+                        HStack {
+                            Image(woman.imageName)
+                                .resizable()
+                                .frame(width: geometry.size.width * 0.3, height: geometry.size.width * 0.3)
+                            
+                            Image(woman.textName)
+                                .resizable()
+                                .frame(width: geometry.size.width * 0.3 * 1.73, height: geometry.size.width * 0.3 * 0.53)
+                        }
+                        
+                        Text(woman.changeDescription)
+                            .foregroundColor(.white)
+                        
+                        Spacer()
+                    }
                 }
             }
             .toolbar {
@@ -28,6 +42,7 @@ struct DetailsView: View {
                         didSelectWoman = false
                     } label: {
                         Text("OK")
+                            .bold()
                     }
                 }
             }

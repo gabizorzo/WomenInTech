@@ -48,6 +48,13 @@ struct MainView: View {
                        .frame(height: geometry.size.height * 0.1)
                 }
                 .padding(.horizontal, geometry.size.width * 0.05)
+                
+                NavigationLink(destination: StartView()) {
+                    Image("FinishButton")
+                        .resizable()
+                        .frame(width: geometry.size.width * 0.05, height: geometry.size.width * 0.05 * 0.48)
+                }
+                .position(x: geometry.size.width * 0.95, y: geometry.size.height * 0.05)
             }
             .sheet(isPresented: $didSelectWoman) {
                 DetailsView(woman: $selectedWoman, didSelectWoman: $didSelectWoman)
