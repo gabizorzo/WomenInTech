@@ -56,12 +56,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 9.95, y: 0)
+                    .position(x: geometry.size.width / 11, y: 0)
                 
                 Text("1840")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 9.95, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 11, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -71,12 +71,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 5, y: 0)
+                    .position(x: geometry.size.width / 5.5, y: 0)
                 
                 Text("1940")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 5, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 5.5, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -86,12 +86,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 3.35, y: 0)
+                    .position(x: geometry.size.width / 3.75, y: 0)
                 
                 Text("1947")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 3.35, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 3.75, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -101,12 +101,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 2.55, y: 0)
+                    .position(x: geometry.size.width / 2.75, y: 0)
                 
                 Text("1962")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 2.55, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 2.75, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -116,12 +116,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 2.05, y: 0)
+                    .position(x: geometry.size.width / 2.2, y: 0)
                 
                 Text("1963")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 2.05, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 2.2, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -131,12 +131,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 1.725, y: 0)
+                    .position(x: geometry.size.width / 1.85, y: 0)
                 
                 Text("1965")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 1.725, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 1.85, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -146,12 +146,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 1.5, y: 0)
+                    .position(x: geometry.size.width / 1.59, y: 0)
                 
                 Text("1972")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 1.5, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 1.59, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -161,12 +161,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 1.35, y: 0)
+                    .position(x: geometry.size.width / 1.38, y: 0)
                 
                 Text("1973")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 1.35, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 1.38, y: -geometry.size.height * 0.4)
                 
             }
         }
@@ -177,12 +177,12 @@ struct yearsRectangles: View {
                 Rectangle()
                     .frame(width: 5, height: 30, alignment: .center)
                     .foregroundColor(Color("AccentColor"))
-                    .position(x: geometry.size.width / 1.2, y: 0)
+                    .position(x: geometry.size.width / 1.22, y: 0)
                 
                 Text("1984")
                     .font(.system(size: 18))
                     .bold()
-                    .position(x: geometry.size.width / 1.2, y: -geometry.size.height * 0.4)
+                    .position(x: geometry.size.width / 1.22, y: -geometry.size.height * 0.4)
                 
             }
         }
