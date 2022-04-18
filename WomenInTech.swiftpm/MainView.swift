@@ -36,6 +36,7 @@ struct MainView: View {
                     
                     Text("YEAR: \(Int(year))")
                         .font(.system(size: 18))
+                        .foregroundColor(.white)
                     
                     Spacer()
                        .frame(height: geometry.size.height * 0.1)

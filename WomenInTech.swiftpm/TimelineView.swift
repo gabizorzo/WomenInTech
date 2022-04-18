@@ -26,6 +26,7 @@ struct TimelineView: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: 0, y: -geometry.size.height * 0.4)
+                    .foregroundColor(.white)
             }
             
             Rectangle()
@@ -42,6 +43,7 @@ struct TimelineView: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width, y: -geometry.size.height * 0.4)
+                    .foregroundColor(.white)
             }
             
             YearsMarks(year: $year, geometry: geometry)
@@ -68,7 +70,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 11, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -83,7 +85,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 5.5, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -98,7 +100,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 3.75, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -113,7 +115,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 2.75, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -128,7 +130,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 2.2, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -143,7 +145,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 1.85, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -158,7 +160,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 1.59, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -173,7 +175,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 1.38, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -189,7 +191,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 1.22, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
         
@@ -204,7 +206,7 @@ struct YearsMarks: View {
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 1.1, y: -geometry.size.height * 0.4)
-                
+                    .foregroundColor(.white)
             }
         }
     }
