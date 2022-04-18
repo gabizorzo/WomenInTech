@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Women
 /* Setup all women data */
 
-class Women {
+class WomenArray {
     var women: [Woman] = []
     
     init() {

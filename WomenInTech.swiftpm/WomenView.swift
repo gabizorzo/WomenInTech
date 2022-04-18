@@ -12,14 +12,20 @@ import SwiftUI
 
 struct WomenView: View {
     @Binding var year: Double
-    var geometry: GeometryProxy
+    @Binding var didSelectWoman: Bool
+    @Binding var womenArray: WomenArray
+    @Binding var selectedWoman: Woman
     
-    var womenArray: Women = Women()
+    var geometry: GeometryProxy
     
     var body: some View {
         if year >= 1840 {
          WomanViewTop(woman: womenArray.women[0], width: geometry.size.width)
                 .position(x: geometry.size.width * 0.44, y: -geometry.size.height * 0.1)
+                .onTapGesture {
+                    selectedWoman = womenArray.women[0]
+                    didSelectWoman = true
+                }
         }
         
         if year >= 1940 {
