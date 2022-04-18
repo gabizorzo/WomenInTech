@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - StartView
+/* First screen view */
+
 struct StartView: View {
     @State private var didTapStart: Bool = false
     

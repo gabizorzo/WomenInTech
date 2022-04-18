@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - Woman
+/* Woman model */
+
 struct Woman {
     var imageName: String
     var textName: String

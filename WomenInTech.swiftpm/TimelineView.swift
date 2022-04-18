@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - TimelineView
+/* Creates the timeline view */
+
 struct TimelineView: View {
     
     @Binding var year: Double
@@ -41,12 +44,15 @@ struct TimelineView: View {
                     .position(x: geometry.size.width, y: -geometry.size.height * 0.4)
             }
             
-            yearsRectangles(year: $year, geometry: geometry)
+            YearsMarks(year: $year, geometry: geometry)
         }
     }
 }
 
-struct yearsRectangles: View {
+// MARK: - YearsMarks
+/* Creates timeline marks according to the selected year */
+
+struct YearsMarks: View {
     @Binding var year: Double
     var geometry: GeometryProxy
     

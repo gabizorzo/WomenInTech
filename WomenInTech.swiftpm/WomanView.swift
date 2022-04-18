@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct WomanView: View {
-    
+// MARK: - Woman View
+/* Creates a woman view */
+
+struct WomanViewTop: View {
     var woman: Woman
     var width: CGFloat
     
@@ -22,8 +24,28 @@ struct WomanView: View {
                 Image(woman.textName)
                     .resizable()
                     .frame(width: width * 0.8 * 1.73 / 7, height: width * 0.8 * 0.53 / 7)
+            }
+        }
+    }
+}
+
+struct WomanViewBottom: View {
+    var woman: Woman
+    var width: CGFloat
+    
+    var body: some View {
+        GeometryReader { geometry in
+            VStack (spacing: 0) {
+                Spacer()
+                    .frame(height: 10)
                 
+                Image(woman.textName)
+                    .resizable()
+                    .frame(width: width * 0.8 * 1.73 / 7, height: width * 0.8 * 0.53 / 7)
                 
+                Image(woman.imageName)
+                    .resizable()
+                    .frame(width: width * 0.8 / 7, height: width * 0.8 / 7)
             }
         }
     }
