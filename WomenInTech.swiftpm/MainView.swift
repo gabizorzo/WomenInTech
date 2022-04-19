@@ -18,7 +18,7 @@ struct MainView: View {
     @State var womenArray: WomenArray = WomenArray()
     
     // Just for starting purposes
-    @State var selectedWoman: Woman = Woman(imageName: "AdaImage", textName: "AdaText", year: 1840, changeDescription: "Description")
+    @State var selectedWoman: Woman = Woman(imageName: "AdaImage", textName: "AdaText", changeDescription: "AdaDescription")
     
     var body: some View {
         GeometryReader { geometry in

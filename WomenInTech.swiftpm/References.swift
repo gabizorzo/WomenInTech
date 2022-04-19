@@ -3,12 +3,17 @@
  References used in this project:
  Ada Lovelace:
  https://www.britannica.com/biography/Ada-Lovelace
+ https://www.mentalfloss.com/article/53131/ada-lovelace-first-computer-programmer
+ 
+ Hedy Lamarr:
+ https://www.bbc.com/portuguese/internacional-54017008
+ https://www.bcs.org/articles-opinion-and-research/hedy-lamarr-movie-star-and-mother-of-wifi/
+ 
+ Grace Hopper:
+ https://www1.tecnoblog.net/meiobit/97634/grace-hopper-a-maior-de-todas-as-geeks/
  
  Adele Goldberg:
  https://www.witi.com/halloffame/100883/Adele-Goldberg-Founding-Chairman-ParcPlace-Systems,-Inc/
- 
- Hedy Lamarr:
- https://www.bbc.com/portuguese/internacional-54017008.
  
  Radia Perlman:
  https://internethalloffame.org/inductees/radia-perlman

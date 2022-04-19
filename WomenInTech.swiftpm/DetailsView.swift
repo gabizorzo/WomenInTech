@@ -18,7 +18,7 @@ struct DetailsView: View {
                     Color("BackgroundColor")
                         .ignoresSafeArea()
                     
-                    VStack {
+                    VStack(spacing: 50) {
                         HStack {
                             Image(woman.imageName)
                                 .resizable()
@@ -29,8 +29,9 @@ struct DetailsView: View {
                                 .frame(width: geometry.size.width * 0.3 * 1.73, height: geometry.size.width * 0.3 * 0.53)
                         }
                         
-                        Text(woman.changeDescription)
-                            .foregroundColor(.white)
+                        Image(woman.changeDescription)
+                            .resizable()
+                            .frame(width: geometry.size.width * 0.7, height: geometry.size.width * 0.7 * 0.4)
                         
                         Spacer()
                     }

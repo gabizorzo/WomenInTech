@@ -13,6 +13,5 @@ import SwiftUI
 struct Woman {
     var imageName: String
     var textName: String
-    var year: Double
     var changeDescription: String
 }
