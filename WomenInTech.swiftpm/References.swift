@@ -27,6 +27,7 @@
  
  Karen Sparck-Jones:
  https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
+ https://masterwebsiteplanners.com/blog/seo/karen-sparck-jones-the-forgotten-mother-of-the-search-engine
  
  Adele Goldberg:
  https://www.witi.com/halloffame/100883/Adele-Goldberg-Founding-Chairman-ParcPlace-Systems,-Inc/
