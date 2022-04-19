@@ -1,6 +1,8 @@
 // MARK: - References
 /*
  References used in this project:
+ Ada Lovelace:
+ https://www.britannica.com/biography/Ada-Lovelace
  
  Adele Goldberg:
  https://www.witi.com/halloffame/100883/Adele-Goldberg-Founding-Chairman-ParcPlace-Systems,-Inc/

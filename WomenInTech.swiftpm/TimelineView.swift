@@ -66,7 +66,7 @@ struct YearsMarks: View {
                     .foregroundColor(Color("AccentColor"))
                     .position(x: geometry.size.width / 11, y: 0)
                 
-                Text("1840")
+                Text("1843")
                     .font(.system(size: 18))
                     .bold()
                     .position(x: geometry.size.width / 11, y: -geometry.size.height * 0.4)
