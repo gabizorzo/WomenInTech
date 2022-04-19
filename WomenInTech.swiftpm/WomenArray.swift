@@ -23,25 +23,25 @@ class WomenArray {
         let graceHopper: Woman = Woman(imageName: "AdaImage", textName: "GraceText", changeDescription: "GraceDescription")
         women.append(graceHopper)
         
-        let katherineJohnson: Woman = Woman(imageName: "AdaImage", textName: "KatherineText", changeDescription: "Crucial for the success of the USA's first space flight")
+        let katherineJohnson: Woman = Woman(imageName: "AdaImage", textName: "KatherineText", changeDescription: "KatherineDescription")
         women.append(katherineJohnson)
         
-        let annieEasley: Woman = Woman(imageName: "AdaImage", textName: "AnnieText", changeDescription: "Responsible for the first successful rocket lauch")
+        let annieEasley: Woman = Woman(imageName: "AdaImage", textName: "AnnieText", changeDescription: "AnnieDescription")
         women.append(annieEasley)
         
-        let maryWilkes: Woman = Woman(imageName: "AdaImage", textName: "MaryText", changeDescription: "First person to use a personal computer at home")
+        let maryWilkes: Woman = Woman(imageName: "AdaImage", textName: "MaryText", changeDescription: "MaryDescription")
         women.append(maryWilkes)
         
-        let karenSparckJones: Woman = Woman(imageName: "AdaImage", textName: "KarenText", changeDescription: "Established the basis for search engines")
+        let karenSparckJones: Woman = Woman(imageName: "AdaImage", textName: "KarenText", changeDescription: "KarenDescription")
         women.append(karenSparckJones)
         
-        let adeleGoldberg: Woman = Woman(imageName: "AdaImage", textName: "AdeleText", changeDescription: "Participated in the development of the Smalltalk-80 programming language")
+        let adeleGoldberg: Woman = Woman(imageName: "AdaImage", textName: "AdeleText", changeDescription: "AdeleDescription")
         women.append(adeleGoldberg)
         
-        let radiaPerlman: Woman = Woman(imageName: "AdaImage", textName: "RadiaText", changeDescription: "Considered an internet pioneer")
+        let radiaPerlman: Woman = Woman(imageName: "AdaImage", textName: "RadiaText", changeDescription: "RadiaDescription")
         women.append(radiaPerlman)
         
-        let elizabethFainler: Woman = Woman(imageName: "AdaImage", textName: "ElizabethText", changeDescription: "Developed the white-pages and yellow-pages")
+        let elizabethFainler: Woman = Woman(imageName: "AdaImage", textName: "ElizabethText", changeDescription: "ElizabethDescription")
         women.append(elizabethFainler)
     }
 }

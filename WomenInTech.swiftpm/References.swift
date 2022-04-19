@@ -12,6 +12,22 @@
  Grace Hopper:
  https://www1.tecnoblog.net/meiobit/97634/grace-hopper-a-maior-de-todas-as-geeks/
  
+ Katherine Johnson:
+ https://www.nasa.gov/content/katherine-johnson-biography
+ http://mtciencias.com.br/mulheres/katherine-johnson%E2%80%8B/
+ https://www.britannica.com/biography/Katherine-Johnson-mathematician
+ 
+ Annie Easley:
+ https://www.nasa.gov/feature/annie-easley-computer-scientist
+ https://www.nasa.gov/image-feature/annie-easley-computer-scientist-and-mathematician
+ 
+ Mary Wilkes:
+ https://tekkieuni.com/blog/mary-allen-wilkes/
+ https://peoplepill.com/people/mary-allen-wilkes
+ 
+ Karen Sparck-Jones:
+ https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
+ 
  Adele Goldberg:
  https://www.witi.com/halloffame/100883/Adele-Goldberg-Founding-Chairman-ParcPlace-Systems,-Inc/
  
@@ -20,13 +36,6 @@
  https://lemelson.mit.edu/resources/radia-perlman
  https://www.fastcompany.com/90615239/radia-perlman-internet-pioneer-gender-bias
  https://engenharia360.com/mulheres-ciencia-radia-perlman/
- 
- Katherine Johnson:
- https://www.nasa.gov/content/katherine-johnson-biography
- http://mtciencias.com.br/mulheres/katherine-johnson%E2%80%8B/
- 
- Karen Sparck-Jones:
- https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
  
  Elizabeth Feinler:
  https://www.internethalloffame.org/inductees/elizabeth-feinler
