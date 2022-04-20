@@ -29,19 +29,19 @@ class WomenArray {
         let annieEasley: Woman = Woman(imageName: "AnnieImage", textName: "AnnieText", changeDescription: "AnnieDescription")
         women.append(annieEasley)
         
-        let maryWilkes: Woman = Woman(imageName: "AdaImage", textName: "MaryText", changeDescription: "MaryDescription")
+        let maryWilkes: Woman = Woman(imageName: "MaryImage", textName: "MaryText", changeDescription: "MaryDescription")
         women.append(maryWilkes)
         
-        let karenSparckJones: Woman = Woman(imageName: "AdaImage", textName: "KarenText", changeDescription: "KarenDescription")
+        let karenSparckJones: Woman = Woman(imageName: "KarenImage", textName: "KarenText", changeDescription: "KarenDescription")
         women.append(karenSparckJones)
         
-        let adeleGoldberg: Woman = Woman(imageName: "AdaImage", textName: "AdeleText", changeDescription: "AdeleDescription")
+        let adeleGoldberg: Woman = Woman(imageName: "AdeleImage", textName: "AdeleText", changeDescription: "AdeleDescription")
         women.append(adeleGoldberg)
         
-        let radiaPerlman: Woman = Woman(imageName: "AdaImage", textName: "RadiaText", changeDescription: "RadiaDescription")
+        let radiaPerlman: Woman = Woman(imageName: "RadiaImage", textName: "RadiaText", changeDescription: "RadiaDescription")
         women.append(radiaPerlman)
         
-        let elizabethFainler: Woman = Woman(imageName: "AdaImage", textName: "ElizabethText", changeDescription: "ElizabethDescription")
+        let elizabethFainler: Woman = Woman(imageName: "ElizabethImage", textName: "ElizabethText", changeDescription: "ElizabethDescription")
         women.append(elizabethFainler)
     }
 }
