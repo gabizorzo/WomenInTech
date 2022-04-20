@@ -1,8 +1,9 @@
 //
-//  File.swift
-//  WomenInTech
 //
-//  Created by Gabriela Zorzo on 12/04/22.
+//  WOMEN IN TECH
+//
+//  Gabriela Zorzo
+//  2022
 //
 
 import SwiftUI

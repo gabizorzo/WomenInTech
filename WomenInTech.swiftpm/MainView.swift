@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  WomenInTech
+//  WOMEN IN TECH
 //
-//  Created by Gabriela Zorzo on 12/04/22.
+//  Gabriela Zorzo
+//  2022
 //
 
 import SwiftUI
@@ -11,11 +11,14 @@ import SwiftUI
 /* Creates the view responsible to show the timeline and it's content */
 
 struct MainView: View {
+    @Binding var firstOrientation: UIDeviceOrientation
     
     @State private var year: Double = 0
     @State var didSelectWoman: Bool = false
     @State var showHelp: Bool = false
     @State var womenArray: WomenArray = WomenArray()
+    
+    @State var isFirstShow: Bool = true
     
     // Just for starting purposes
     @State var selectedWoman: Woman = Woman(imageName: "AdaImage", textName: "AdaText", changeDescription: "AdaDescription")
@@ -33,14 +36,16 @@ struct MainView: View {
                     ZStack {
                         TimelineView(year: $year)
                         
-                        if UIDevice.current.orientation.isLandscape {
+                        if UIDevice.current.orientation.isLandscape || (firstOrientation.isLandscape  && isFirstShow) {
                             WomenViewLandscape(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
                         }
-                        
-                        if UIDevice.current.orientation.isPortrait {
+                        if UIDevice.current.orientation.isPortrait || (firstOrientation.isPortrait   && isFirstShow)  {
                             WomenViewPortrait(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
                         }
                     }
+                    .onChange(of: UIDevice.current.orientation, perform: { _ in
+                        isFirstShow = false
+                    })
                     
                     Slider(value: $year, in: 0...9, step: 1)
                         .accentColor(Color("AccentColor"))

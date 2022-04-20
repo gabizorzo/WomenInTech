@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  WomenInTech
+//  WOMEN IN TECH
 //
-//  Created by Gabriela Zorzo on 18/04/22.
+//  Gabriela Zorzo
+//  2022
 //
 
 import SwiftUI
@@ -111,7 +111,7 @@ struct WomenViewLandscape: View {
     }
 }
 
-// MARK: - WomenViewLandscape
+// MARK: - WomenViewPortrait
 /* Create each woman view according to the selected year for the portrait orientation*/
 
 struct WomenViewPortrait: View {

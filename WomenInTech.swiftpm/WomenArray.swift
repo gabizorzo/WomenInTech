@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  WomenInTech
+//  WOMEN IN TECH
 //
-//  Created by Gabriela Zorzo on 13/04/22.
+//  Gabriela Zorzo
+//  2022
 //
 
 import Foundation

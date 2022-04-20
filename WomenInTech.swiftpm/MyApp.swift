@@ -1,3 +1,10 @@
+//
+//  WOMEN IN TECH
+//
+//  Gabriela Zorzo
+//  2022
+//
+
 import SwiftUI
 
 @main

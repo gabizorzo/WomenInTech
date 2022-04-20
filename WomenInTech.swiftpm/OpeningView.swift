@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  WomenInTech
+//  WOMEN IN TECH
 //
-//  Created by Gabriela Zorzo on 19/04/22.
+//  Gabriela Zorzo
+//  2022
 //
 
 import SwiftUI
@@ -11,6 +11,8 @@ import SwiftUI
 /* Creates the view responsible to show the opening content */
 
 struct OpeningView: View {
+    
+    @State var firstOrientation: UIDeviceOrientation = UIDevice.current.orientation
     
     var body: some View {
         GeometryReader { geometry in
@@ -23,7 +25,7 @@ struct OpeningView: View {
                         .resizable()
                         .frame(width: geometry.size.width * 0.5, height: geometry.size.width * 0.5 * 0.8)
                     
-                    NavigationLink(destination: MainView()) {
+                    NavigationLink(destination: MainView(firstOrientation: $firstOrientation)) {
                         Image("LetsGoButton")
                             .resizable()
                             .frame(width: geometry.size.width * 0.1, height: geometry.size.width * 0.1 * 0.3)
