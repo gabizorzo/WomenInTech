@@ -33,7 +33,13 @@ struct MainView: View {
                     ZStack {
                         TimelineView(year: $year)
                         
-                        WomenView(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
+                        if UIDevice.current.orientation.isLandscape {
+                            WomenViewLandscape(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
+                        }
+                        
+                        if UIDevice.current.orientation.isPortrait {
+                            WomenViewPortrait(year: $year, didSelectWoman: $didSelectWoman, womenArray: $womenArray, selectedWoman: $selectedWoman, geometry: geometry)
+                        }
                     }
                     
                     Slider(value: $year, in: 0...9, step: 1)
