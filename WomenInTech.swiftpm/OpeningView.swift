@@ -23,7 +23,7 @@ struct OpeningView: View {
                 VStack(alignment: .center, spacing: 50) {
                     Image("OpeningText")
                         .resizable()
-                        .frame(width: geometry.size.width * 0.5, height: geometry.size.width * 0.5 * 0.8)
+                        .frame(width: geometry.size.width * 0.6, height: geometry.size.width * 0.6 * 0.72)
                     
                     NavigationLink(destination: MainView(firstOrientation: $firstOrientation)) {
                         Image("LetsGoButton")
