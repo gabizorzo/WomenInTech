@@ -31,7 +31,6 @@ struct StartView: View {
                             .resizable() 
                             .frame(width: geometry.size.width * 0.1, height: geometry.size.width * 0.1 * 0.4)
                     }
-                    
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
             }

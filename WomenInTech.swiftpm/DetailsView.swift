@@ -31,7 +31,7 @@ struct DetailsView: View {
                         
                         Image(woman.changeDescription)
                             .resizable()
-                            .frame(width: geometry.size.width * 0.7, height: geometry.size.width * 0.7 * 0.4)
+                            .frame(width: geometry.size.width * 0.7, height: geometry.size.width * 0.7 * 0.352)
                         
                         Spacer()
                     }
