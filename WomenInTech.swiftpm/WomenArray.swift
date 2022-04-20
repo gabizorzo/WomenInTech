@@ -17,16 +17,16 @@ class WomenArray {
         let adaLovelace: Woman = Woman(imageName: "AdaImage", textName: "AdaText", changeDescription: "AdaDescription")
         women.append(adaLovelace)
         
-        let hedyLamarr: Woman = Woman(imageName: "AdaImage", textName: "HedyText", changeDescription: "HedyDescription")
+        let hedyLamarr: Woman = Woman(imageName: "HedyImage", textName: "HedyText", changeDescription: "HedyDescription")
         women.append(hedyLamarr)
         
-        let graceHopper: Woman = Woman(imageName: "AdaImage", textName: "GraceText", changeDescription: "GraceDescription")
+        let graceHopper: Woman = Woman(imageName: "GraceImage", textName: "GraceText", changeDescription: "GraceDescription")
         women.append(graceHopper)
         
-        let katherineJohnson: Woman = Woman(imageName: "AdaImage", textName: "KatherineText", changeDescription: "KatherineDescription")
+        let katherineJohnson: Woman = Woman(imageName: "KatherineImage", textName: "KatherineText", changeDescription: "KatherineDescription")
         women.append(katherineJohnson)
         
-        let annieEasley: Woman = Woman(imageName: "AdaImage", textName: "AnnieText", changeDescription: "AnnieDescription")
+        let annieEasley: Woman = Woman(imageName: "AnnieImage", textName: "AnnieText", changeDescription: "AnnieDescription")
         women.append(annieEasley)
         
         let maryWilkes: Woman = Woman(imageName: "AdaImage", textName: "MaryText", changeDescription: "MaryDescription")
