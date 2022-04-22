@@ -12,8 +12,6 @@ import SwiftUI
 
 struct OpeningView: View {
     
-    @State var firstOrientation: UIDeviceOrientation = UIDevice.current.orientation
-    
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -25,7 +23,7 @@ struct OpeningView: View {
                         .resizable()
                         .frame(width: geometry.size.width * 0.6, height: geometry.size.width * 0.6 * 0.72)
                     
-                    NavigationLink(destination: MainView(firstOrientation: $firstOrientation)) {
+                    NavigationLink(destination: MainView()) {
                         Image("LetsGoButton")
                             .resizable()
                             .frame(width: geometry.size.width * 0.1, height: geometry.size.width * 0.1 * 0.3)
